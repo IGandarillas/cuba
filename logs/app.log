@@ -422,3 +422,64 @@ Maximum number of entities: Not restricted
 16:19:00.768 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType is set to postgres
 16:19:00.942 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\work\app-core\persistence.xml
 16:19:00.969 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@38d62c4: startup date [Mon Apr 25 16:19:00 CEST 2016]; root of context hierarchy
+20:06:25.775 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@2d97681f: startup date [Mon Apr 25 20:06:25 CEST 2016]; root of context hierarchy
+20:06:28.540 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService]
+20:06:28.553 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [report_ReportService, report_ReportWizardService]
+20:06:29.708 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+20:06:31.016 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+20:06:31.207 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+20:06:31.357 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+20:06:31.444 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+20:06:31.460 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 25 20:06:31 CEST 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@2d97681f
+20:06:34.416 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 2971 ms
+20:06:35.117 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType is set to postgres
+20:06:35.318 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\yukorff\projects\gestion-actividades\cuba\work\app-core\persistence.xml
+20:06:35.345 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@2b43cad3: startup date [Mon Apr 25 20:06:35 CEST 2016]; root of context hierarchy
+20:06:42.097 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+20:06:44.536 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+20:06:45.419 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=ObjectsCacheManager, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter]
+20:06:45.595 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.reports:type=CubaOfficeIntegration, app-core.reports:type=ReportImportExport]
+20:06:46.030 WARN  [localhost-startStop-1] com.haulmont.cuba.security.app.UserSessions - 
+======================================================
+CUBA platform license
+Type: Commercial
+License ID: 1503121
+Licensed to: Not restricted
+Application: Not restricted
+Valid for CUBA platform releases up to: Not restricted
+Maximum number of sessions: 5
+Maximum number of entities: Not restricted
+======================================================
+20:06:46.048 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - AppContext initialized
+20:06:46.055 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+20:06:46.166 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+20:06:46.237 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+20:06:46.387 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 331 ms
+20:07:45.595 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+20:07:52.612 DEBUG [http-nio-8080-exec-18] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+20:07:52.699 DEBUG [http-nio-8080-exec-18] com.haulmont.cuba.web.AppUI - Initializing AppUI
+20:07:52.699 DEBUG [http-nio-8080-exec-18] com.haulmont.cuba.web.App - Initializing application
+20:07:58.356 WARN  [http-nio-8080-exec-62] eclipselink.connection - 
+20:07:58.393 INFO  [http-nio-8080-exec-62] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+20:07:58.721 INFO  [http-nio-8080-exec-62] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 327ms
+20:08:02.577 INFO  [http-nio-8080-exec-62] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+20:08:03.176 INFO  [http-nio-8080-exec-62] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: 677dac17-43b7-8523-96c3-102a8f0798f9 [admin]
+20:08:03.305 DEBUG [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.web.DefaultApp - Creating AppWindow
+20:08:03.390 INFO  [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+20:08:03.718 INFO  [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 328ms
+20:08:04.671 INFO  [http-nio-8080-exec-62/app-core/admin] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+20:08:04.708 INFO  [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Initializing views
+20:08:04.711 DEBUG [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: cuba-views.xml
+20:08:04.718 DEBUG [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: reports-views.xml
+20:08:04.721 DEBUG [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: views.xml
+20:08:04.762 DEBUG [http-nio-8080-exec-62/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+20:08:05.039 DEBUG [http-nio-8080-exec-62/app-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading AppFolders
+20:08:05.140 DEBUG [http-nio-8080-exec-62/app-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading SearchFolders
+20:08:05.262 DEBUG [http-nio-8080-exec-62/app/admin] com.haulmont.cuba.web.DefaultConnection - Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36
+20:08:05.322 WARN  [http-nio-8080-exec-62] com.haulmont.cuba.web.sys.CubaApplicationServlet - Too long request processing [7718 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+20:08:45.596 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+20:09:12.707 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 25 20:06:31 CEST 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@2d97681f
+20:09:12.735 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Closing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@2d97681f: startup date [Mon Apr 25 20:06:25 CEST 2016]; root of context hierarchy
+20:09:12.739 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+20:09:12.801 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Closing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@2b43cad3: startup date [Mon Apr 25 20:06:35 CEST 2016]; root of context hierarchy
+20:09:12.806 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
