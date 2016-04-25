@@ -1,0 +1,4 @@
+alter table GESTIONACTIVIDADES_DIRECCION add column COMUNIDAD_AUTONOMA varchar(255) ;
+alter table GESTIONACTIVIDADES_DIRECCION add column MUNICIPIO varchar(255) ;
+alter table GESTIONACTIVIDADES_DIRECCION add column LOCALIDAD varchar(255) ;
+alter table GESTIONACTIVIDADES_DIRECCION drop column LOCALIDAD_ID cascade ;

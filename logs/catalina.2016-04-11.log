@@ -1,0 +1,1 @@
+11-Apr-2016 12:19:29.551 WARNING [http-nio-8080-exec-14] com.vaadin.server.communication.ServerRpcHandler.handleInvocations Ignoring RPC call for disabled connector com.haulmont.cuba.web.toolkit.ui.CubaSourceCodeEditor

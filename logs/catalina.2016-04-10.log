@@ -1,0 +1,419 @@
+10-Apr-2016 18:08:24.281 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Apr-2016 18:08:24.362 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:08:24.418 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:08:24.470 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+10-Apr-2016 18:08:24.975 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 18:08:24.984 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 18:08:25.431 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Apr-2016 18:08:25.497 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:08:25.551 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:08:25.652 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:08:25.702 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:11:55.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.26
+10-Apr-2016 18:11:55.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 18 2015 11:38:37 UTC
+10-Apr-2016 18:11:55.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.26.0
+10-Apr-2016 18:11:55.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Apr-2016 18:11:55.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Apr-2016 18:11:55.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2016 18:11:55.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+10-Apr-2016 18:11:55.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+10-Apr-2016 18:11:55.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2016 18:11:55.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:11:55.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:11:55.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\conf\logging.properties
+10-Apr-2016 18:11:55.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2016 18:11:55.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Apr-2016 18:11:55.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Apr-2016 18:11:55.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=../conf/logback.xml
+10-Apr-2016 18:11:55.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Apr-2016 18:11:55.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Apr-2016 18:11:55.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\endorsed
+10-Apr-2016 18:11:55.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:11:55.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:11:55.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\temp
+10-Apr-2016 18:11:55.903 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\yukorff\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\scala\bin;C:\Users\yukorff\Anaconda3;C:\Users\yukorff\Anaconda3\Scripts;C:\Users\yukorff\Anaconda3\Library\bin;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\;C:\Ruby22\bin;C:\Program Files\Git\bin;C:\Users\yukorff\AppData\Roaming\npm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.
+10-Apr-2016 18:12:02.766 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:12:02.990 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 18:12:02.996 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:12:03.003 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 18:12:03.005 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 8944 ms
+10-Apr-2016 18:12:03.148 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+10-Apr-2016 18:12:03.150 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.26
+10-Apr-2016 18:12:03.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app de la aplicación web
+10-Apr-2016 18:12:20.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app has finished in 17.050 ms
+10-Apr-2016 18:12:20.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core de la aplicación web
+10-Apr-2016 18:12:53.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core has finished in 33.682 ms
+10-Apr-2016 18:12:53.944 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:12:53.970 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:12:53.974 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 50967 ms
+10-Apr-2016 18:13:19.408 WARNING [http-nio-8080-exec-34] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Apr-2016 18:38:24.202 WARNING [http-nio-8080-exec-1] com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest Invalid security key received from 0:0:0:0:0:0:0:1
+10-Apr-2016 18:38:36.368 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Apr-2016 18:38:36.375 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:38:36.433 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:38:36.486 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+10-Apr-2016 18:38:36.575 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 18:38:36.580 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 18:38:36.642 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Apr-2016 18:38:36.650 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:38:36.670 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:38:36.673 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:38:36.690 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:39:57.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.26
+10-Apr-2016 18:39:57.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 18 2015 11:38:37 UTC
+10-Apr-2016 18:39:57.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.26.0
+10-Apr-2016 18:39:57.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Apr-2016 18:39:57.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Apr-2016 18:39:57.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2016 18:39:57.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+10-Apr-2016 18:39:57.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+10-Apr-2016 18:39:57.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2016 18:39:57.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:39:57.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:39:57.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\conf\logging.properties
+10-Apr-2016 18:39:57.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2016 18:39:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Apr-2016 18:39:57.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Apr-2016 18:39:57.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=../conf/logback.xml
+10-Apr-2016 18:39:57.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Apr-2016 18:39:57.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Apr-2016 18:39:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\endorsed
+10-Apr-2016 18:39:57.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:39:57.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 18:39:57.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\temp
+10-Apr-2016 18:39:57.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\yukorff\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\scala\bin;C:\Users\yukorff\Anaconda3;C:\Users\yukorff\Anaconda3\Scripts;C:\Users\yukorff\Anaconda3\Library\bin;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\;C:\Ruby22\bin;C:\Program Files\Git\bin;C:\Users\yukorff\AppData\Roaming\npm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.
+10-Apr-2016 18:39:58.444 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:39:58.730 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 18:39:58.740 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:39:58.749 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 18:39:58.753 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1817 ms
+10-Apr-2016 18:39:58.872 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+10-Apr-2016 18:39:58.874 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.26
+10-Apr-2016 18:39:58.924 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app de la aplicación web
+10-Apr-2016 18:40:18.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app has finished in 19.997 ms
+10-Apr-2016 18:40:18.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core de la aplicación web
+10-Apr-2016 18:40:37.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core has finished in 19.043 ms
+10-Apr-2016 18:40:37.992 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 18:40:38.024 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 18:40:38.032 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 39274 ms
+10-Apr-2016 18:40:49.601 WARNING [http-nio-8080-exec-8] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Apr-2016 18:44:14.288 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (181) which is not registered
+10-Apr-2016 18:44:14.291 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister VerticalLayout (182) which is not registered
+10-Apr-2016 18:44:14.294 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister  (183) which is not registered
+10-Apr-2016 18:44:14.298 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CompositionLayout (184) which is not registered
+10-Apr-2016 18:44:14.301 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (185) which is not registered
+10-Apr-2016 18:44:14.304 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (186) which is not registered
+10-Apr-2016 18:44:14.307 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (187) which is not registered
+10-Apr-2016 18:44:14.310 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaHorizontalActionsLayout (188) which is not registered
+10-Apr-2016 18:44:14.313 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaPlaceHolder (189) which is not registered
+10-Apr-2016 18:44:14.319 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (190) which is not registered
+10-Apr-2016 18:44:14.322 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (191) which is not registered
+10-Apr-2016 18:44:14.326 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister Label (192) which is not registered
+10-Apr-2016 18:44:14.329 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (193) which is not registered
+10-Apr-2016 18:44:14.332 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (194) which is not registered
+10-Apr-2016 18:44:14.335 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (195) which is not registered
+10-Apr-2016 18:44:14.337 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister HorizontalLayout (196) which is not registered
+10-Apr-2016 18:44:14.340 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister HorizontalLayout (197) which is not registered
+10-Apr-2016 18:44:14.342 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaRowsCount (198) which is not registered
+10-Apr-2016 18:44:14.345 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister HorizontalLayout (199) which is not registered
+10-Apr-2016 18:44:14.348 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (200) which is not registered
+10-Apr-2016 18:44:14.351 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (201) which is not registered
+10-Apr-2016 18:44:14.354 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (202) which is not registered
+10-Apr-2016 18:44:14.358 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (203) which is not registered
+10-Apr-2016 18:44:14.361 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister VerticalLayout (204) which is not registered
+10-Apr-2016 18:44:14.366 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister  (205) which is not registered
+10-Apr-2016 18:44:14.369 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CompositionLayout (206) which is not registered
+10-Apr-2016 18:44:14.372 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaVerticalActionsLayout (207) which is not registered
+10-Apr-2016 18:44:14.376 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaGroupBox (179) which is not registered
+10-Apr-2016 18:44:14.379 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (208) which is not registered
+10-Apr-2016 18:44:14.383 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaButton (209) which is not registered
+10-Apr-2016 18:44:14.386 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaHorizontalActionsLayout (210) which is not registered
+10-Apr-2016 18:44:14.389 WARNING [http-nio-8080-exec-8] com.vaadin.ui.ConnectorTracker.unregisterConnector Tried to unregister CubaVerticalActionsLayout (180) which is not registered
+10-Apr-2016 22:20:54.946 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Apr-2016 22:20:54.962 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:20:55.059 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:20:55.110 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+10-Apr-2016 22:20:55.330 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 22:20:55.338 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 22:20:55.515 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Apr-2016 22:20:55.524 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:20:55.636 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:20:55.674 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:20:55.713 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:22:14.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.26
+10-Apr-2016 22:22:14.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 18 2015 11:38:37 UTC
+10-Apr-2016 22:22:14.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.26.0
+10-Apr-2016 22:22:14.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Apr-2016 22:22:14.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Apr-2016 22:22:14.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2016 22:22:14.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+10-Apr-2016 22:22:14.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+10-Apr-2016 22:22:14.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2016 22:22:14.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:22:14.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:22:14.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\conf\logging.properties
+10-Apr-2016 22:22:14.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2016 22:22:14.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Apr-2016 22:22:14.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Apr-2016 22:22:14.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=../conf/logback.xml
+10-Apr-2016 22:22:14.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Apr-2016 22:22:14.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Apr-2016 22:22:14.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\endorsed
+10-Apr-2016 22:22:14.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:22:14.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:22:14.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\temp
+10-Apr-2016 22:22:14.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\yukorff\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\scala\bin;C:\Users\yukorff\Anaconda3;C:\Users\yukorff\Anaconda3\Scripts;C:\Users\yukorff\Anaconda3\Library\bin;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\;C:\Ruby22\bin;C:\Program Files\Git\bin;C:\Users\yukorff\AppData\Roaming\npm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.
+10-Apr-2016 22:22:15.330 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:22:15.432 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 22:22:15.436 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:22:15.442 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 22:22:15.443 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3503 ms
+10-Apr-2016 22:22:15.520 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+10-Apr-2016 22:22:15.521 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.26
+10-Apr-2016 22:22:15.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app de la aplicación web
+10-Apr-2016 22:22:43.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app has finished in 28.031 ms
+10-Apr-2016 22:22:43.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core de la aplicación web
+10-Apr-2016 22:23:05.868 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core has finished in 22.282 ms
+10-Apr-2016 22:23:05.880 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:23:06.316 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:23:06.323 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 50877 ms
+10-Apr-2016 22:23:47.283 WARNING [http-nio-8080-exec-4] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Apr-2016 22:26:51.873 WARNING [http-nio-8080-exec-18] com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest Invalid security key received from 0:0:0:0:0:0:0:1
+10-Apr-2016 22:37:39.718 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Apr-2016 22:37:39.721 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:37:39.774 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:37:39.777 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+10-Apr-2016 22:37:39.840 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 22:37:39.846 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 22:37:39.903 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Apr-2016 22:37:39.910 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:37:39.924 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:37:39.926 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:37:39.930 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:40:17.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.26
+10-Apr-2016 22:40:17.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 18 2015 11:38:37 UTC
+10-Apr-2016 22:40:17.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.26.0
+10-Apr-2016 22:40:17.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Apr-2016 22:40:17.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Apr-2016 22:40:17.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2016 22:40:17.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+10-Apr-2016 22:40:17.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+10-Apr-2016 22:40:17.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2016 22:40:17.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:40:17.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:40:17.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\conf\logging.properties
+10-Apr-2016 22:40:17.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2016 22:40:17.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Apr-2016 22:40:17.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Apr-2016 22:40:17.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=../conf/logback.xml
+10-Apr-2016 22:40:17.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Apr-2016 22:40:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Apr-2016 22:40:17.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\endorsed
+10-Apr-2016 22:40:17.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:40:17.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 22:40:17.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\temp
+10-Apr-2016 22:40:17.256 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\yukorff\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\scala\bin;C:\Users\yukorff\Anaconda3;C:\Users\yukorff\Anaconda3\Scripts;C:\Users\yukorff\Anaconda3\Library\bin;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\;C:\Ruby22\bin;C:\Program Files\Git\bin;C:\Users\yukorff\AppData\Roaming\npm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.
+10-Apr-2016 22:40:18.046 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:40:18.341 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 22:40:18.346 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:40:18.354 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 22:40:18.357 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2461 ms
+10-Apr-2016 22:40:18.455 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+10-Apr-2016 22:40:18.459 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.26
+10-Apr-2016 22:40:18.486 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app de la aplicación web
+10-Apr-2016 22:40:45.005 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app has finished in 26.518 ms
+10-Apr-2016 22:40:45.008 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core de la aplicación web
+10-Apr-2016 22:41:04.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core has finished in 19.842 ms
+10-Apr-2016 22:41:04.865 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 22:41:04.927 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 22:41:04.931 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 46572 ms
+10-Apr-2016 22:41:05.617 WARNING [http-nio-8080-exec-13] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Apr-2016 23:56:18.987 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Apr-2016 23:56:18.990 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 23:56:19.044 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 23:56:19.098 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+10-Apr-2016 23:56:19.170 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 23:56:19.173 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:745)
+10-Apr-2016 23:56:19.237 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Apr-2016 23:56:19.246 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 23:56:19.260 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 23:56:19.261 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 23:56:19.265 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 23:57:00.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.26
+10-Apr-2016 23:57:00.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 18 2015 11:38:37 UTC
+10-Apr-2016 23:57:00.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.26.0
+10-Apr-2016 23:57:00.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Apr-2016 23:57:00.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Apr-2016 23:57:00.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2016 23:57:00.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+10-Apr-2016 23:57:00.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+10-Apr-2016 23:57:00.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2016 23:57:00.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 23:57:00.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 23:57:00.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\conf\logging.properties
+10-Apr-2016 23:57:00.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2016 23:57:00.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Apr-2016 23:57:00.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Apr-2016 23:57:00.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=../conf/logback.xml
+10-Apr-2016 23:57:00.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Apr-2016 23:57:00.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Apr-2016 23:57:00.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\endorsed
+10-Apr-2016 23:57:00.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 23:57:00.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat
+10-Apr-2016 23:57:00.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\temp
+10-Apr-2016 23:57:00.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\yukorff\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\scala\bin;C:\Users\yukorff\Anaconda3;C:\Users\yukorff\Anaconda3\Scripts;C:\Users\yukorff\Anaconda3\Library\bin;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\yukorff\AppData\Local\Programs\Python\Python35-32\;C:\Ruby22\bin;C:\Program Files\Git\bin;C:\Users\yukorff\AppData\Roaming\npm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.
+10-Apr-2016 23:57:01.418 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 23:57:01.664 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 23:57:01.669 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 23:57:01.675 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2016 23:57:01.677 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2179 ms
+10-Apr-2016 23:57:01.764 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+10-Apr-2016 23:57:01.766 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.26
+10-Apr-2016 23:57:01.785 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app de la aplicación web
+10-Apr-2016 23:57:13.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app has finished in 11.928 ms
+10-Apr-2016 23:57:13.727 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core de la aplicación web
+10-Apr-2016 23:57:32.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\webapps\app-core has finished in 19.249 ms
+10-Apr-2016 23:57:32.984 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2016 23:57:33.022 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2016 23:57:33.027 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 31349 ms
+10-Apr-2016 23:57:57.014 WARNING [http-nio-8080-exec-24] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================

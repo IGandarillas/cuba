@@ -1,0 +1,1 @@
+alter table GESTIONACTIVIDADES_DIRECCION add column ACTIVIDAD_ID varchar(36) ;

@@ -1,0 +1,2 @@
+alter table GESTIONACTIVIDADES_RESPONSABLE add column DIRECCION varchar(255) ;
+alter table GESTIONACTIVIDADES_RESPONSABLE drop column DIRECCION_ID cascade ;

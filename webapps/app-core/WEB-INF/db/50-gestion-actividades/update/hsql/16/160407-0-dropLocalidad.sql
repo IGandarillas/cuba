@@ -1,0 +1,1 @@
+drop table GESTIONACTIVIDADES_LOCALIDAD cascade ;

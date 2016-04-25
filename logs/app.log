@@ -1,0 +1,424 @@
+17:25:25.119 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@72c8bbd4: startup date [Wed Apr 20 17:25:25 CEST 2016]; root of context hierarchy
+17:25:28.973 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService]
+17:25:29.515 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [report_ReportService, report_ReportWizardService]
+17:25:34.805 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+17:25:36.196 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+17:25:36.439 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+17:25:36.611 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+17:25:36.737 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+17:25:36.765 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Apr 20 17:25:36 CEST 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@72c8bbd4
+17:25:39.623 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 2885 ms
+17:25:39.947 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType is set to postgres
+17:25:40.117 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\work\app-core\persistence.xml
+17:25:40.154 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@16e2ed96: startup date [Wed Apr 20 17:25:40 CEST 2016]; root of context hierarchy
+17:25:47.497 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+17:25:51.522 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+17:25:56.822 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=ObjectsCacheManager, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter]
+17:25:57.031 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.reports:type=CubaOfficeIntegration, app-core.reports:type=ReportImportExport]
+17:25:57.909 WARN  [localhost-startStop-1] com.haulmont.cuba.security.app.UserSessions - 
+======================================================
+CUBA platform license
+Type: Commercial
+License ID: 1503121
+Licensed to: Not restricted
+Application: Not restricted
+Valid for CUBA platform releases up to: Not restricted
+Maximum number of sessions: 5
+Maximum number of entities: Not restricted
+======================================================
+17:25:57.925 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - AppContext initialized
+17:25:57.938 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+17:25:58.034 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:25:58.092 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+17:25:58.307 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 368 ms
+17:26:10.764 DEBUG [http-nio-8080-exec-24] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+17:26:10.833 DEBUG [http-nio-8080-exec-24] com.haulmont.cuba.web.AppUI - Initializing AppUI
+17:26:10.833 DEBUG [http-nio-8080-exec-24] com.haulmont.cuba.web.App - Initializing application
+17:26:57.030 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:27:09.370 WARN  [http-nio-8080-exec-37] eclipselink.connection - 
+17:27:09.400 INFO  [http-nio-8080-exec-37] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+17:27:09.711 INFO  [http-nio-8080-exec-37] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 311ms
+17:27:13.085 INFO  [http-nio-8080-exec-37] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+17:27:13.632 INFO  [http-nio-8080-exec-37] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: 355b4ffe-fd10-87da-e7f3-6a30a5306059 [admin]
+17:27:13.923 DEBUG [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.web.DefaultApp - Creating AppWindow
+17:27:13.992 INFO  [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+17:27:14.373 INFO  [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 380ms
+17:27:15.368 INFO  [http-nio-8080-exec-37/app-core/admin] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+17:27:15.395 INFO  [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Initializing views
+17:27:15.400 DEBUG [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: cuba-views.xml
+17:27:15.408 DEBUG [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: reports-views.xml
+17:27:15.411 DEBUG [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: views.xml
+17:27:15.458 DEBUG [http-nio-8080-exec-37/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+17:27:15.796 DEBUG [http-nio-8080-exec-37/app-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading AppFolders
+17:27:15.944 DEBUG [http-nio-8080-exec-37/app-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading SearchFolders
+17:27:16.148 DEBUG [http-nio-8080-exec-37/app/admin] com.haulmont.cuba.web.DefaultConnection - Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+17:27:16.241 WARN  [http-nio-8080-exec-37] com.haulmont.cuba.web.sys.CubaApplicationServlet - Too long request processing [7471 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+17:27:25.070 INFO  [http-nio-8080-exec-24/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+17:27:25.294 INFO  [http-nio-8080-exec-24/app-core/admin] com.haulmont.cuba.core.sys.ViewRepositoryImpl - Initializing views
+17:27:25.511 DEBUG [http-nio-8080-exec-24/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:27:26.430 DEBUG [http-nio-8080-exec-24/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Factura, view=com.company.gestionactividades.entity.Factura/factura-edit, query=select e from gestionactividades$Factura e, max=50
+17:27:32.035 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:27:32.089 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Alumno, view=com.company.gestionactividades.entity.Alumno/alumno-edit, query=select e from gestionactividades$Alumno e, max=50
+17:27:33.868 DEBUG [http-nio-8080-exec-12/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:27:33.900 DEBUG [http-nio-8080-exec-12/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Actividad, view=com.company.gestionactividades.entity.Actividad/actividad-edit, query=select e from gestionactividades$Actividad e, max=50
+17:27:43.410 DEBUG [http-nio-8080-exec-37/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loading entities
+17:27:43.498 DEBUG [http-nio-8080-exec-37/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+17:27:56.960 DEBUG [http-nio-8080-exec-32/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:27:56.994 DEBUG [http-nio-8080-exec-32/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Actividad, view=com.company.gestionactividades.entity.Actividad/actividad-edit, query=select e from gestionactividades$Actividad e, max=50
+17:27:57.031 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:28:54.522 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.Actividad-e9b4276f-23d7-8097-96cd-086734ea70e0 [new]], removeInstances=[]
+17:28:57.031 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:29:07.136 DEBUG [http-nio-8080-exec-29/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:29:07.156 DEBUG [http-nio-8080-exec-29/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Alumno, view=com.company.gestionactividades.entity.Alumno/alumno-edit, query=select e from gestionactividades$Alumno e, max=50
+17:29:52.970 DEBUG [http-nio-8080-exec-18/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:29:53.022 DEBUG [http-nio-8080-exec-18/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:29:57.031 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:30:12.605 DEBUG [http-nio-8080-exec-4/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:30:12.637 DEBUG [http-nio-8080-exec-4/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:30:17.834 DEBUG [http-nio-8080-exec-29/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:30:17.949 DEBUG [http-nio-8080-exec-29/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:30:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:31:37.067 DEBUG [http-nio-8080-exec-37/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.Responsable-4918a6a1-b0dd-4123-81f4-9dd6b1b90cfa [new]], removeInstances=[]
+17:31:43.408 DEBUG [http-nio-8080-exec-39/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:31:43.434 DEBUG [http-nio-8080-exec-39/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:31:57.030 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:32:02.839 DEBUG [http-nio-8080-exec-35/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:32:02.865 DEBUG [http-nio-8080-exec-35/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:32:11.809 DEBUG [http-nio-8080-exec-38/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.Alumno-c1e7f319-6c0a-31ab-0d41-5bca32bde4de [new]], removeInstances=[]
+17:32:15.007 DEBUG [http-nio-8080-exec-4/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$Alumno, id=c1e7f319-6c0a-31ab-0d41-5bca32bde4de, view=com.company.gestionactividades.entity.Alumno/alumno-edit
+17:32:33.685 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$Responsable, id=4918a6a1-b0dd-4123-81f4-9dd6b1b90cfa, view=com.company.gestionactividades.entity.Responsable/responsable-edit
+17:32:43.370 DEBUG [http-nio-8080-exec-29/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$Alumno, id=c1e7f319-6c0a-31ab-0d41-5bca32bde4de, view=com.company.gestionactividades.entity.Alumno/alumno-edit
+17:32:50.619 DEBUG [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:32:50.642 DEBUG [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Actividad, view=com.company.gestionactividades.entity.Actividad/actividad-edit, query=select e from gestionactividades$Actividad e, max=50
+17:32:56.454 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.ActividadAlumno-7b04ed6d-9457-2de1-b5c0-462c11aad814 [new]], removeInstances=[]
+17:32:57.031 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:32:58.407 DEBUG [http-nio-8080-exec-40/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$Alumno, id=c1e7f319-6c0a-31ab-0d41-5bca32bde4de, view=com.company.gestionactividades.entity.Alumno/alumno-edit
+17:33:04.719 DEBUG [http-nio-8080-exec-22/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:33:04.749 DEBUG [http-nio-8080-exec-22/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Factura, view=com.company.gestionactividades.entity.Factura/factura-edit, query=select e from gestionactividades$Factura e, max=50
+17:33:13.555 DEBUG [http-nio-8080-exec-35/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:33:13.576 DEBUG [http-nio-8080-exec-35/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:33:25.466 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:33:25.488 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:33:27.761 DEBUG [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/actividadAlumno-edit, query=select e from gestionactividades$ActividadAlumno e where e.alumno.responsable.id = :ds_responsableDs, max=10000
+17:33:56.388 DEBUG [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.ActividadAlumnoFactura-90c2e0f8-937e-e9f4-fcf3-9eed09ee034c [new], com.company.gestionactividades.entity.Factura-f605de4e-b81b-4342-b36c-dfdbe89062e6 [new]], removeInstances=[]
+17:33:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:33:59.203 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$Factura, id=f605de4e-b81b-4342-b36c-dfdbe89062e6, view=com.company.gestionactividades.entity.Factura/factura-edit
+17:33:59.246 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/actividadAlumno-edit, query=select e from gestionactividades$ActividadAlumno e where e.alumno.responsable.id = :ds_responsableDs, max=10000
+17:34:02.015 DEBUG [http-nio-8080-exec-29/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$ActividadAlumnoFactura, id=90c2e0f8-937e-e9f4-fcf3-9eed09ee034c, view=com.company.gestionactividades.entity.ActividadAlumnoFactura/actividadAlumnoFactura-edit
+17:34:02.179 DEBUG [http-nio-8080-exec-29/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/_local, query=select e from gestionactividades$ActividadAlumno e, max=10000
+17:34:57.030 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:35:57.030 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:36:11.701 DEBUG [http-nio-8080-exec-33/app/admin] com.haulmont.cuba.web.App - Ping session
+17:36:57.030 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:37:57.031 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:38:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:39:57.030 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:40:57.031 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:41:57.031 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:42:54.486 DEBUG [http-nio-8080-exec-28/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:42:54.514 DEBUG [http-nio-8080-exec-28/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:42:57.031 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:42:59.478 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:42:59.514 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Actividad, view=com.company.gestionactividades.entity.Actividad/actividad-edit, query=select e from gestionactividades$Actividad e, max=50
+17:43:20.881 DEBUG [http-nio-8080-exec-21/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.Actividad-5d340a15-e80f-619e-79e6-941e65751f32 [new]], removeInstances=[]
+17:43:31.756 DEBUG [http-nio-8080-exec-30/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.Alumno-9a9d3dd8-0fb3-810e-fbf4-9ed9e92884f1 [new], com.company.gestionactividades.entity.ActividadAlumno-4d066f01-3d27-ce81-947d-24010bb3158d [new]], removeInstances=[]
+17:43:36.884 DEBUG [http-nio-8080-exec-20/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:43:36.911 DEBUG [http-nio-8080-exec-20/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Factura, view=com.company.gestionactividades.entity.Factura/factura-edit, query=select e from gestionactividades$Factura e, max=50
+17:43:41.115 DEBUG [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:43:41.134 DEBUG [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:43:42.424 DEBUG [http-nio-8080-exec-21/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/actividadAlumno-edit, query=select e from gestionactividades$ActividadAlumno e where e.alumno.responsable.id = :ds_responsableDs, max=10000
+17:43:49.976 DEBUG [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/_local, query=select e from gestionactividades$ActividadAlumno e, max=10000
+17:43:57.030 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:44:04.413 DEBUG [http-nio-8080-exec-21/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/_local, query=select e from gestionactividades$ActividadAlumno e, max=10000
+17:44:18.833 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.ActividadAlumnoFactura-940254a7-299e-cf1b-b319-ae8638c03f15 [new], com.company.gestionactividades.entity.Factura-f8180cbb-b53a-bc76-6c6a-836594050236 [new]], removeInstances=[]
+17:44:21.158 DEBUG [http-nio-8080-exec-22/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$Factura, id=f8180cbb-b53a-bc76-6c6a-836594050236, view=com.company.gestionactividades.entity.Factura/factura-edit
+17:44:21.195 DEBUG [http-nio-8080-exec-22/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/actividadAlumno-edit, query=select e from gestionactividades$ActividadAlumno e where e.alumno.responsable.id = :ds_responsableDs, max=10000
+17:44:34.602 DEBUG [http-nio-8080-exec-16/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:44:34.790 DEBUG [http-nio-8080-exec-16/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=report$Report, view=com.haulmont.reports.entity.Report/report.view, query=select r from report$Report, max=50
+17:44:40.631 DEBUG [http-nio-8080-exec-40/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:44:40.655 DEBUG [http-nio-8080-exec-40/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=report$Report, view=com.haulmont.reports.entity.Report/report.view, query=select r from report$Report, max=50
+17:44:57.030 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:45:57.030 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:46:11.735 DEBUG [http-nio-8080-exec-19/app/admin] com.haulmont.cuba.web.App - Ping session
+17:46:15.653 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=report$ReportGroup, view=com.haulmont.reports.entity.ReportGroup/_local, query=select rg from report$ReportGroup rg order by rg.createTs asc, max=10000
+17:46:15.837 WARN  [http-nio-8080-exec-6/app-core/admin] org.docx4j.utils.ResourceUtils - Couldn't get resource: docx4j.properties
+17:46:15.840 WARN  [http-nio-8080-exec-6/app-core/admin] org.docx4j.Docx4jProperties - Couldn't find/read docx4j.properties; docx4j.properties not found via classloader.
+17:46:15.843 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.packages.WordprocessingMLPackage - Using paper size: A4
+17:46:15.845 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.packages.WordprocessingMLPackage - Landscape orientation: false
+17:46:16.000 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - java.vendor=Oracle Corporation
+17:46:16.001 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - java.version=1.8.0_65
+17:46:16.087 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - 
+jar:file:/C:/Users/yukorff/studio-projects/gestion-actividades/build/tomcat/shared/lib/eclipselink-2.6.1.cuba7.jar!/META-INF/MANIFEST.MF
+17:46:16.089 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Ant-Version : Apache Ant 1.9.3
+17:46:16.091 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Release-Designation : EclipseLink DeveloperBuild
+17:46:16.093 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Implementation-Title : org.eclipse.persistence
+17:46:16.094 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Implementation-Version : 2.6.1.cuba7
+17:46:16.097 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Specification-Vendor : Eclipse.org - EclipseLink Project
+17:46:16.099 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Specification-Title : Eclipse Persistence Services Source
+17:46:16.101 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Created-By : 1.8.0_45-b15 (Oracle Corporation)
+17:46:16.103 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Specification-Version : 2.6.1
+17:46:16.106 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Manifest-Version : 1.0
+17:46:16.107 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Implementation-Vendor : Eclipse.org - EclipseLink Project
+17:46:16.285 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - No MOXy JAXB config found; assume not intended..
+17:46:16.683 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.NamespacePrefixMapperUtils - Using NamespacePrefixMapperSunInternal, which is suitable for Java 6
+17:46:16.686 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Using Java 6/7 JAXB implementation
+17:46:23.934 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.Context - Not using MOXy; using com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl
+17:46:24.605 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.model.structure.PageDimensions - Using paper size: A4
+17:46:24.606 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.model.structure.PageDimensions - Landscape orientation: false
+17:46:24.618 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.relationships.RelationshipsPart - adding part with proposed name: /word/document.xml
+17:46:24.622 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.Base - shortcut was set
+17:46:24.626 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPartXPathAware - For org.docx4j.openpackaging.parts.WordprocessingML.StyleDefinitionsPart, unmarshall via binder
+17:46:24.656 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.XmlUtils - Using com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl
+17:46:24.657 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.XmlUtils - Using com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+17:46:24.797 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.relationships.RelationshipsPart - adding part with proposed name: /word/styles.xml
+17:46:24.801 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.Base - shortcut was set
+17:46:24.831 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.utils.XPathFactoryUtil - xpath implementation: org.apache.xpath.jaxp.XPathFactoryImpl
+17:46:24.856 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.relationships.RelationshipsPart - adding part with proposed name: /docProps/core.xml
+17:46:24.858 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.Base - shortcut was set
+17:46:24.861 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.relationships.RelationshipsPart - adding part with proposed name: /docProps/app.xml
+17:46:24.863 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.Base - shortcut was set
+17:46:24.876 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.WordprocessingML.StyleDefinitionsPart - Style with name Default Paragraph Font, id 'DefaultParagraphFont' is default character style
+17:46:24.877 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.WordprocessingML.StyleDefinitionsPart - Style with name Normal, id 'Normal' is default paragraph style
+17:46:24.889 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.WordprocessingML.StyleDefinitionsPart - Set virtual style, id 'DocDefaults', name 'DocDefaults'
+17:46:25.033 WARN  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.io3.Save - sourcePartStore undefined
+17:46:25.065 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.contenttype.ContentTypeManager - marshalling org.docx4j.openpackaging.contenttype.ContentTypeManager ...
+17:46:25.079 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.jaxb.NamespacePrefixMapperUtils - Using NamespacePrefixMapperSunInternal, which is suitable for Java 6
+17:46:25.079 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.relationships.RelationshipsPart
+17:46:25.081 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.WordprocessingML.MainDocumentPart
+17:46:25.093 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.relationships.RelationshipsPart
+17:46:25.094 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.WordprocessingML.StyleDefinitionsPart
+17:46:25.104 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.DocPropsCorePart
+17:46:25.105 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.DocPropsExtendedPart
+17:46:25.107 INFO  [http-nio-8080-exec-6/app-core/admin] org.docx4j.openpackaging.io3.Save - ...Done!
+17:46:26.440 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=report$Report, id=da943c6e-2ba0-db08-d0d6-296fe86b8092, view=com.haulmont.reports.entity.Report/report.edit
+17:46:27.233 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Role, view=com.haulmont.cuba.security.entity.Role/_local, query=select r from sec$Role r order by r.name, max=10000
+17:46:27.401 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=report$ReportGroup, view=com.haulmont.reports.entity.ReportGroup/_local, query=select rg from report$ReportGroup rg order by rg.createTs asc, max=10000
+17:46:27.448 WARN  [http-nio-8080-exec-6] com.haulmont.cuba.web.sys.CubaApplicationServlet - Too long request processing [11806 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+17:46:40.077 DEBUG [http-nio-8080-exec-39/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:46:40.098 DEBUG [http-nio-8080-exec-39/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Factura, view=com.company.gestionactividades.entity.Factura/_local, query=select e from gestionactividades$Factura, max=100
+17:46:43.275 DEBUG [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:46:43.289 DEBUG [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Factura, view=com.company.gestionactividades.entity.Factura/_local, query=select e from gestionactividades$Factura, max=100
+17:46:53.322 INFO  [http-nio-8080-exec-28/app-core/admin] com.haulmont.reports.libintegration.CubaReporting - Started report [Report for entity "Factura"] with parameters [
+entities:[com.company.gestionactividades.entity.Factura-f605de4e-b81b-4342-b36c-dfdbe89062e6 [detached], com.company.gestionactividades.entity.Factura-f8180cbb-b53a-bc76-6c6a-836594050236 [detached]]]
+17:46:53.458 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.contenttype.ContentTypeManager - Detected WordProcessingML package 
+17:46:53.460 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io3.Load3 - Instantiated package of type org.docx4j.openpackaging.packages.WordprocessingMLPackage
+17:46:53.465 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io3.Load3 - package read;  elapsed time: 13 ms
+17:46:53.474 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - Lazily unmarshalling /word/document.xml
+17:46:53.475 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPartXPathAware - For org.docx4j.openpackaging.parts.WordprocessingML.MainDocumentPart, unmarshall via binder
+17:46:53.570 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.contenttype.ContentTypeManager - marshalling org.docx4j.openpackaging.contenttype.ContentTypeManager ...
+17:46:53.574 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.relationships.RelationshipsPart
+17:46:53.577 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io.SaveToZipFile - success writing part: _rels/.rels
+17:46:53.579 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.WordprocessingML.MainDocumentPart
+17:46:53.584 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io.SaveToZipFile - success writing part: word/document.xml
+17:46:53.588 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.relationships.RelationshipsPart
+17:46:53.592 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io.SaveToZipFile - success writing part: word/_rels/document.xml.rels
+17:46:53.596 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.WordprocessingML.StyleDefinitionsPart
+17:46:53.597 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - Lazily unmarshalling /word/styles.xml
+17:46:53.601 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPartXPathAware - For org.docx4j.openpackaging.parts.WordprocessingML.StyleDefinitionsPart, unmarshall via binder
+17:46:53.644 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io.SaveToZipFile - success writing part: word/styles.xml
+17:46:53.648 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.DocPropsCorePart
+17:46:53.651 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - Lazily unmarshalling /docProps/core.xml
+17:46:53.652 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.DocPropsCorePart - unmarshalling org.docx4j.openpackaging.parts.DocPropsCorePart
+17:46:53.658 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io.SaveToZipFile - success writing part: docProps/core.xml
+17:46:53.660 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - marshalling org.docx4j.openpackaging.parts.DocPropsExtendedPart
+17:46:53.662 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.JaxbXmlPart - Lazily unmarshalling /docProps/app.xml
+17:46:53.664 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.parts.DocPropsExtendedPart - unmarshalling org.docx4j.openpackaging.parts.DocPropsExtendedPart
+17:46:53.669 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io.SaveToZipFile - success writing part: docProps/app.xml
+17:46:53.670 INFO  [http-nio-8080-exec-28/app-core/admin] org.docx4j.openpackaging.io.SaveToZipFile - ...Done!
+17:46:53.672 INFO  [http-nio-8080-exec-28/app-core/admin] com.haulmont.reports.libintegration.CubaReporting - Finished report [Report for entity "Factura"] with parameters [
+entities:[com.company.gestionactividades.entity.Factura-f605de4e-b81b-4342-b36c-dfdbe89062e6 [detached], com.company.gestionactividades.entity.Factura-f8180cbb-b53a-bc76-6c6a-836594050236 [detached]]]
+17:46:57.030 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:47:57.030 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:48:57.031 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:49:40.290 DEBUG [http-nio-8080-exec-31/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - commit: commitInstances=[com.company.gestionactividades.entity.Factura-f8180cbb-b53a-bc76-6c6a-836594050236 [detached]], removeInstances=[]
+17:49:54.469 DEBUG [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - load: metaClass=gestionactividades$Factura, id=f8180cbb-b53a-bc76-6c6a-836594050236, view=com.company.gestionactividades.entity.Factura/factura-edit
+17:49:54.512 DEBUG [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/actividadAlumno-edit, query=select e from gestionactividades$ActividadAlumno e where e.alumno.responsable.id = :ds_responsableDs, max=10000
+17:49:57.031 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:49:57.761 DEBUG [http-nio-8080-exec-28/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$ActividadAlumno, view=com.company.gestionactividades.entity.ActividadAlumno/_local, query=select e from gestionactividades$ActividadAlumno e, max=10000
+17:50:04.965 DEBUG [http-nio-8080-exec-13/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:50:04.986 DEBUG [http-nio-8080-exec-13/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Alumno, view=com.company.gestionactividades.entity.Alumno/alumno-edit, query=select e from gestionactividades$Alumno e, max=50
+17:50:14.176 DEBUG [http-nio-8080-exec-4/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+17:50:14.197 DEBUG [http-nio-8080-exec-4/app-core/admin] com.haulmont.cuba.core.app.DataManagerBean - loadList: metaClass=gestionactividades$Responsable, view=com.company.gestionactividades.entity.Responsable/_local, query=select e from gestionactividades$Responsable e, max=50
+17:50:57.031 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:51:57.031 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:52:57.030 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:53:57.031 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:54:57.031 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:55:57.030 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:56:11.758 DEBUG [http-nio-8080-exec-31/app/admin] com.haulmont.cuba.web.App - Ping session
+17:56:57.030 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:57:57.030 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:58:57.031 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+17:59:57.031 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:00:57.030 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:01:57.030 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:02:57.031 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:03:57.030 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:04:57.031 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:05:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:06:11.786 DEBUG [http-nio-8080-exec-35/app/admin] com.haulmont.cuba.web.App - Ping session
+18:06:57.031 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:07:57.030 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:08:57.030 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:09:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:10:57.030 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:11:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:12:57.031 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:13:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:14:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:15:57.030 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:16:11.811 DEBUG [http-nio-8080-exec-32/app/admin] com.haulmont.cuba.web.App - Ping session
+18:16:57.030 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:17:57.031 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:18:57.030 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:19:57.030 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.950 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.951 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.951 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.951 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.951 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.951 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.951 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.952 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.952 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.952 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.952 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.952 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.952 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.952 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.953 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.953 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.953 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.953 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:33.953 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+18:39:48.602 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Apr 20 17:25:36 CEST 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@72c8bbd4
+18:39:48.665 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Closing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@72c8bbd4: startup date [Wed Apr 20 17:25:25 CEST 2016]; root of context hierarchy
+18:39:48.677 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+18:39:48.865 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Closing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@16e2ed96: startup date [Wed Apr 20 17:25:40 CEST 2016]; root of context hierarchy
+18:39:48.886 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+02:50:59.083 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+02:51:04.786 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+02:51:05.113 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+02:51:05.299 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+02:51:05.399 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+02:51:05.436 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 25 02:51:05 CEST 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@3b9dc4ca
+02:51:09.382 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 3981 ms
+02:51:09.876 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType is set to postgres
+02:51:10.481 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\work\app-core\persistence.xml
+02:51:10.652 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6fe9351f: startup date [Mon Apr 25 02:51:10 CEST 2016]; root of context hierarchy
+02:51:20.177 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+02:51:26.710 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+02:51:28.167 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=ObjectsCacheManager, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter]
+02:51:28.470 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.reports:type=CubaOfficeIntegration, app-core.reports:type=ReportImportExport]
+02:51:28.892 WARN  [localhost-startStop-1] com.haulmont.cuba.security.app.UserSessions - 
+======================================================
+CUBA platform license
+Type: Commercial
+License ID: 1503121
+Licensed to: Not restricted
+Application: Not restricted
+Valid for CUBA platform releases up to: Not restricted
+Maximum number of sessions: 5
+Maximum number of entities: Not restricted
+======================================================
+02:51:28.943 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - AppContext initialized
+02:51:28.959 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+02:51:29.115 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+02:51:29.159 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:51:29.432 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 471 ms
+02:52:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:53:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:54:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:55:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:56:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:57:28.470 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:58:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+02:59:28.470 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:00:28.470 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:01:28.470 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:02:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:03:28.470 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:04:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:05:28.470 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:06:28.471 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:07:28.470 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:08:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:09:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:10:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:11:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:12:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:13:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:14:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:15:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:16:28.470 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:17:28.471 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:18:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:19:28.471 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:20:28.470 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:21:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:22:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:23:28.470 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:24:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:25:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:26:28.470 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:27:28.470 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:28:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:29:28.470 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:30:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:31:28.470 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:32:28.470 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:33:28.470 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:34:28.470 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:35:28.470 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:36:28.470 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:37:28.470 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:38:28.470 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:39:28.470 DEBUG [scheduler-8] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:40:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:41:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:42:28.470 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:43:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:44:28.470 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:45:28.470 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:46:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:47:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:48:28.470 DEBUG [scheduler-4] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:49:28.470 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:50:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:51:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:52:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:53:28.470 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:54:28.470 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:55:28.470 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:56:28.470 DEBUG [scheduler-9] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:57:28.470 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:58:28.471 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+03:59:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:00:28.470 DEBUG [scheduler-2] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:01:28.471 DEBUG [scheduler-6] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:02:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:03:28.470 DEBUG [scheduler-3] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:04:28.470 DEBUG [scheduler-1] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:05:28.470 DEBUG [scheduler-7] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:06:28.470 DEBUG [scheduler-5] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:07:28.470 DEBUG [scheduler-10] com.haulmont.cuba.core.app.LockManager - Expiring locks
+04:07:54.258 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 25 02:51:05 CEST 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@3b9dc4ca
+04:07:54.308 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Closing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@3b9dc4ca: startup date [Mon Apr 25 02:50:52 CEST 2016]; root of context hierarchy
+04:07:54.315 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+04:07:54.367 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Closing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6fe9351f: startup date [Mon Apr 25 02:51:10 CEST 2016]; root of context hierarchy
+04:07:54.380 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+04:07:54.407 WARN  [localhost-startStop-2] eclipselink.connection - 
+04:08:08.138 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@75a60545: startup date [Mon Apr 25 04:08:08 CEST 2016]; root of context hierarchy
+16:18:46.052 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@6feafbdd: startup date [Mon Apr 25 16:18:46 CEST 2016]; root of context hierarchy
+16:18:48.450 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService]
+16:18:48.460 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [report_ReportService, report_ReportWizardService]
+16:18:49.436 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+16:18:59.322 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+16:18:59.486 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+16:18:59.586 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+16:18:59.653 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+16:18:59.670 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 25 16:18:59 CEST 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@6feafbdd
+16:19:00.335 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 681 ms
+16:19:00.768 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType is set to postgres
+16:19:00.942 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\yukorff\studio-projects\gestion-actividades\build\tomcat\work\app-core\persistence.xml
+16:19:00.969 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@38d62c4: startup date [Mon Apr 25 16:19:00 CEST 2016]; root of context hierarchy

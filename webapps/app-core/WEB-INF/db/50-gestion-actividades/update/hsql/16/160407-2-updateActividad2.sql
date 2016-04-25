@@ -1,0 +1,1 @@
+alter table GESTIONACTIVIDADES_ACTIVIDAD add column DIRECCION varchar(255) ;

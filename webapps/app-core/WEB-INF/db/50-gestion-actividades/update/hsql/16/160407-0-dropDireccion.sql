@@ -1,0 +1,1 @@
+drop table GESTIONACTIVIDADES_DIRECCION cascade ;
