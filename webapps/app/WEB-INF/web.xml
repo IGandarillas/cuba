@@ -12,7 +12,7 @@
     <context-param>
         <description>Web resources version for correct caching in browser</description>
         <param-name>webResourcesTs</param-name>
-        <param-value>2016_04_25_02_50</param-value>
+        <param-value>2016_04_25_15_25</param-value>
     </context-param>
     <!-- Application properties config files -->
     <context-param>

@@ -1,6 +1,0 @@
-08-Apr-2016 00:16:01.959 WARNING [http-nio-8080-exec-59] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
-=================================================================
-Vaadin is running in DEBUG MODE.
-Add productionMode=true to web.xml to disable debug features.
-To show debug window, add ?debug to your application URL.
-=================================================================

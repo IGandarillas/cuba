@@ -1,0 +1,500 @@
+  185  cd app/
+  186  ../gradle/gradle-1.6/bin/gradle deploy
+  187  cd ../gradle/
+  188  ls
+  189  rm -rf *
+  190  wget  http://services.gradle.org/distributions/gradle-2.6-bin.zip
+  191  unzip gradle-2.6-bin.zip 
+  192  rm -rf gradle-2.6-bin.zip 
+  193  cd ../app/
+  194  ls
+  195  ../gradle/gradle-2.6/bin/gradle
+  196  ../gradle/gradle-2.6/bin/gradle setupTomcat 
+  197  vi bash.sh
+  198  sh bash.sh 
+  199  vi bash.sh 
+  200  sh bash.sh 
+  201  vi bash.sh 
+  202  sh bash.sh 
+  203  cd ..
+  204  ls
+  205  mv gradle/gradle-2.6/ gradle-2.6
+  206  rm -rf gradle
+  207  cd app/
+  208  ls
+  209  vi bash.sh 
+  210  sh bash.sh 
+  211  cd build
+  212  cd ..
+  213  vi bash.sh 
+  214  sh bash.sh 
+  215  vi bash.sh 
+  216  sh bash.sh 
+  217  cd ..
+  218  ls
+  219  du -h apache-ant-1.9.7
+  220  rm -rf apache-ant-1.9.7
+  221  rm -rf apache-ant-1.9.7-bin.zip 
+  222  ls
+  223  rm -rf jdk1.8.0_72/
+  224  rm -rf gradle
+  225  cd app/
+  226  sh bash.sh 
+  227  ls
+  228  cat *.iml
+  229  cat *.iws
+  230  ls
+  231  cd build
+  232  ls
+  233  cd tomcat/
+  234  ls
+  235  cd bin
+  236  sh startup.sh 
+  237  tail -f ../logs/*
+  238  cd ..
+  239  cd conf
+  240  ls
+  241  vi logging.properties 
+  242  cd ..
+  243  sh bin/startup.sh 
+  244  tail -f logs/*
+  245  sh bin/startup.sh && tail -f logs/*
+  246  vim conf/logging.properties 
+  247  vim conf/context.xml 
+  248  vim conf/catalina.properties 
+  249  cd conf/
+  250  vim server.xml 
+  251  cd ..
+  252  cd ..
+  253  ls
+  254  cd ..
+  255  cd ..
+  256  ls
+  257  cp temp/apache-tomcat-8.0.33/conf/server.xml app/build/tomcat/conf/server.xml.bak
+  258  cd app/build/tomcat/conf
+  259  vim server.xml.bak 
+  260  vi server.xml
+  261  whereis vim
+  262  vim server.xml
+  263  env | grep IP
+  264  vim server.xml
+  265  cp server.xml server.xml.bak 
+  266  cd ..
+  267  sh bin/startup.sh && tail -f ../logs/*
+  268  sh bin/startup.sh && tail -f logs/*
+  269  cd conf/
+  270  ls
+  271  mkdir app
+  272  mkdir app-core
+  273  vi app/local.app.properties
+  274  vim app/local.app.properties 
+  275  cp app/local.app.properties app-core/
+  276  cd ..
+  277  sh bin/startup.sh && tail -f logs/*
+  278  cd conf/
+  279  ls
+  280  mkdir Catalina
+  281  mkdir Catalina/localhost
+  282  cp ../webapps/app-core/META-INF/context.xml Catalina/localhost/
+  283  mv Catalina/localhost/context.xml Catalina/localhost/app-core.xml
+  284  cd Catalina/localhost/
+  285  ls
+  286  vim app-core.xml 
+  287  echo $OPENSHIFT_POSTGRESQL_DB_HOST
+  288  env | grep POST
+  289  ps aux
+  290  lsof
+  291  env
+  292  env | POST
+  293  TOP
+  294  top
+  295  lsof
+  296  env
+  297  env | grep POST
+  298  env | grep POS
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd ..
+  303  ls
+  304  vi Catalina/localhost/app-core.xml 
+  305  lsof
+  306  vi Catalina/localhost/app-core.xml 
+  307  cd ..
+  308  ls
+  309  pwd
+  310  sh bin/startup.sh && logs/*
+  311  sh bin/startup.sh && tail -f logs/*
+  312  sh bin/shutdown.sh && tail -f logs/*
+  313  cd conf/app-core/
+  314  ls
+  315  cd ..
+  316  cd ..
+  317  cd conf/
+  318  ls
+  319  vim logback.xml 
+  320  vim catalina.policy 
+  321  vim web.xml 
+  322  cd ..
+  323  cd bin/
+  324  ls
+  325  sh configtest.sh 
+  326  top
+  327  top
+  328  sh configtest.sh 
+  329  echo $JAVA_HOM
+  330  echo $JAVA_HOME
+  331  sh configtest.sh 
+  332  echo 
+  333  sh configtest.sh 
+  334  ls
+  335  ls -lsah *.sh
+  336  vi version.sh 
+  337  sh version.sh 
+  338  ls
+  339  cd ..
+  340  cd bin/
+  341  vi bash
+  342  sh bash 
+  343  cd ..
+  344  cd ..
+  345  cd ..
+  346  ls
+  347  cd ..
+  348  ls
+  349  wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u65-b15/jdk-8u65-linux-x64.tar.gz
+  350  wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jdk-8u65-linux-x64.tar.gz
+  351  tar -zxf jdk-8u72-linux-x64.tar.gz
+  352  tar -zxf jdk-8u65-linux-x64.tar.gz 
+  353  ls
+  354  du -hs jdk1.8.0_65
+  355  du -hs jdk-8u65-linux-x64.tar.gz 
+  356  du -hs server/
+  357  rm -rf server/
+  358  tar -zxf jdk-8u65-linux-x64.tar.gz 
+  359  ls
+  360  du jdk1.8.0_65/
+  361  du -hs jdk1.8.0_65/
+  362  ls
+  363  du -hs tomcat8/
+  364  rm -rf tomcat8/
+  365  rm -rf jdk1.8.0_65/
+  366  tar -zxf jdk-8u65-linux-x64.tar.gz 
+  367  ls
+  368  du -hs jdk1.8.0_65/
+  369  rm -rf jdk-8u65-linux-x64.tar.gz 
+  370  cd app/
+  371  ls
+  372  vi bash.sh 
+  373  cd conf
+  374  ls
+  375  cd build
+  376  cd conf
+  377  cd tomcat/
+  378  ls
+  379  cd conf/
+  380  ls
+  381  cd ..
+  382  ls
+  383  ls conf
+  384  ls -lsha
+  385  date
+  386  ls
+  387  cd conf/
+  388  ls
+  389  vi bash.sh
+  390  vi bash.sh 
+  391  sh bash
+  392  sh bash.sh 
+  393  vi bash.sh 
+  394  vi startup.sh
+  395  ls
+  396  cd ..
+  397  ls
+  398  cd bin
+  399  ls
+  400  vi bash
+  401  sh bash
+  402  ls
+  403  sh configtest.sh 
+  404  vi bash
+  405  sh bash 
+  406  top
+  407  ls
+  408  vi bash
+  409  sh bash 
+  410  ls
+  411  ls -l
+  412  ls -l *.sh
+  413  chmod 777 *
+  414  ls
+  415  ls -l
+  416  sh bash 
+  417  cd ..
+  418  vim conf/logging.properties 
+  419  sh bash 
+  420  cd conf
+  421  sh bash 
+  422  ls
+  423  sh bash.sh 
+  424  vi bash.sh 
+  425  rm bash.sh 
+  426  cd ..
+  427  sh bin/bash 
+  428  vim bin/bash 
+  429  cd bin
+  430  sh bash 
+  431  ./startup.sh 
+  432  top
+  433  ls
+  434  vi bash
+  435  sh bash 
+  436  vib ash
+  437  vim 
+  438  vim bash 
+  439  ./startup.sh 
+  440  tail -f ../logs/*
+  441  rm -rf ../logs/*
+  442  tail -f ../logs/*
+  443  ./startup.sh 
+  444  tail -f ../logs/*
+  445  rm -rf ../logs/*
+  446  ls
+  447  vi setenv.sh 
+  448  cd ..
+  449  grep -rl :0
+  450  grep -rl 0
+  451  grep -rl ':0'
+  452  grep -rl '::0'
+  453  grep -rl ':::::0'
+  454  grep -rl ':::0'
+  455  grep -rl '::0'
+  456  sh bash
+  457  sh bin/bash 
+  458  cd bin
+  459  sh bash
+  460  vi bash 
+  461  ls
+  462  sh daemon.sh 
+  463  sh daemon.sh start
+  464  sh debug.sh
+  465  sh debug.sh && tail -f ../logs/*
+  466  rm -rf ../logs/*
+  467  sh debug.sh && tail -f ../logs/*
+  468  vi debug.sh 
+  469  vi catalina.sh 
+  470  vi /etc/resolv.conf 
+  471  lsof
+  472  lsof -i
+  473  ls
+  474  cd app-root/data/
+  475  ls
+  476  cd temp/
+  477  ls
+  478  cd ..
+  479  cd app/
+  480  ls
+  481  cd build
+  482  ls
+  483  cd tomcat/
+  484  ls
+  485  cd app-root/data/
+  486  ls
+  487  cd app/
+  488  ls
+  489  cd bin
+  490  ls
+  491  cd build
+  492  cd tomcat/
+  493  ls
+  494  cd bin/
+  495  ls
+  496  sh setenv.sh 
+  497  vi setenv.sh 
+  498  sh setenv.sh 
+  499  ps aux
+  500  ls
+  501  cd app-root/data/
+  502  ls
+  503  cd app/
+  504  ls
+  505  cd build
+  506  ls
+  507  cd tomcat/
+  508  ls
+  509  cd bin/
+  510  ls
+  511  vi setenv.sh 
+  512  vi setenv.sh 
+  513  sh catalina.sh run -security && ../logs/*
+  514  sh debug.sh 
+  515  sh debug.sh 
+  516  clear
+  517  sh debug.sh 
+  518  sh debug.sh && ../logs/*
+  519  cd ..
+  520  ls
+  521  ls -lsah
+  522  ls -lsahr
+  523  chmod -R 777 *
+  524  cd bin/
+  525  ls
+  526  vi bash
+  527  sh bash 
+  528  sh configtest.sh 
+  529  ls
+  530  sh shutdown.sh 
+  531  lsof
+  532  cd ..
+  533  grep -rl localhost
+  534  vi bin/catalina.sh 
+  535  vi bin/setenv.sh 
+  536  vi conf/server.xml
+  537  vi conf/logging.properties 
+  538  vi conf/Catalina/localhost/app-core.xml 
+  539  vi conf/server.xml
+  540  vi conf/server.xml
+  541  vi conf/server.xml
+  542  vi /etc/resolv.conf 
+  543  vi /etc/hosts
+  544  vi conf/server.xml
+  545  sh bin/shutdown.sh 
+  546  vi conf/server.xml
+  547  sh bin/startup.sh 
+  548  tail -f logs/*
+  549  sh bin/shutdown.sh 
+  550  vi bin/catalina.sh 
+  551  cd ..
+  552  cd ..
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd temp/
+  557  ls
+  558  cd apache-tomcat-8.0.33
+  559  ls
+  560  cd bin/
+  561  ls
+  562  sh startup.sh && ../logs/*
+  563  top
+  564  cd ..
+  565  cd ..
+  566  cd ..
+  567  cd app/build
+  568  ls
+  569  cd tomcat/
+  570  ls
+  571  cd bin/
+  572  cd ..
+  573  cd conf/
+  574  vi server.xml
+  575  vi server.xml.2
+  576  diff server.xml server.xml.2 
+  577  vi server.xml
+  578  cp server.xml server.xml.bak 
+  579  vi server.xml
+  580  cd ..
+  581  sh bin/startup.sh 
+  582  top
+  583  tail -f logs/*
+  584  ls
+  585  pwd
+  586  vi conf/server.xml
+  587  cd bin
+  588  sh startup.sh
+  589  sh startup.sh && tail -f ../logs/*
+  590  top
+  591  sh startup.sh && tail -f ../logs/*
+  592  top
+  593  cd ..
+  594  ls
+  595  cd ..
+  596  ls
+  597  cd tomcat/
+  598  ls
+  599  cd webapps/
+  600  ls
+  601  ls app
+  602  ls app-core/
+  603  cd ..
+  604  cd ..
+  605  cd ..
+  606  ls
+  607  cd ..
+  608  ls
+  609  cd temp/apache-tomcat-8.0.33
+  610  ls
+  611  cd webapps/
+  612  ls
+  613  cp ../../../app/build/tomcat/webapps/* .
+  614  cp -r ../../../app/build/tomcat/webapps/* .
+  615  ls
+  616  ls -l
+  617  cd ..
+  618  sh bin/startup.sh -security
+  619  top
+  620  tail -f logs/*
+  621  sh bin/shutdown.sh 
+  622  cd ..
+  623  ls
+  624  cd apache-tomcat-8.0.33
+  625  ls
+  626  du -hs
+  627  rm -rf logs/*
+  628  sh bin/startup.sh && tail -f logs/*
+  629  mv webapps/ROOT.war webapps/rambo
+  630  sh bin/startup.sh && tail -f logs/*
+  631  sh bin/shutdown.sh
+  632  sh bin/startup.sh && tail -f logs/*
+  633  top
+  634  ls
+  635  mv webapps/app{*} .
+  636  mv -r webapps/app{*} .
+  637  mv webapps/app .
+  638  ls
+  639  mv webapps/app-core/ .
+  640  ls
+  641  ls
+  642  sh bin/shutdown.sh 
+  643  sh bin/startup.
+  644  sh bin/startup.sh 
+  645  tail -f logs/*
+  646  sh bin/shutdown.sh 
+  647  vi conf/server.xml
+  648  sh bin/startup.sh && tail -f logs/*
+  649  vi webapps/
+  650  cd webapps/
+  651  ls
+  652  ls rambo 
+  653  mv rambo ROOT
+  654  ls
+  655  ls -l
+  656  ls -lsh
+  657  cd ..
+  658  sh bin/shutdown.sh 
+  659  sh bin/startup.sh 
+  660  vi logs/*
+  661  tail- f logs/*
+  662  tail -f logs/*
+  663  ls
+  664  cp ../../app/build/tomcat/shared
+  665  mkdir shared
+  666  cp -r ../../app/build/tomcat/shared/* shared/
+  667  ls shared/
+  668  du shared
+  669  du -hs shared
+  670  sh bin/startup.sh 
+  671  sh bin/shutdown.
+  672  sh bin/shutdown.sh 
+  673  sh bin/startup.sh && tail -f logs/*
+  674  sh bin/shutdown.sh 
+  675  ls
+  676  mv app webapps/
+  677  mv app-core/ webapps/
+  678  sh bin/startup.sh && tail -f logs/*
+  679  sh bin/shutdown.sh 
+  680  cp -r lib/ lib.bak
+  681  ls lib.bak/
+  682  cp -r shared/lib/* lib/
+  683  sh bin/startup.sh && tail -f logs/*
+  684  history > hist.bak
